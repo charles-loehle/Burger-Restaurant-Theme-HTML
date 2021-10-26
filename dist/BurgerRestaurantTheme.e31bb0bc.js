@@ -293,7 +293,8 @@ menu.addEventListener('click', function (e) {
 main.addEventListener('click', function () {
   drawer.classList.remove('open');
   menu.classList.remove('open');
-  logo.classList.remove('txt-red');
+  logo.classList.remove('txt-red'); // change logo color to white
+
   navLinks.forEach(function (link) {
     link.classList.toggle('txt-black'); // change nav link color to black
   });

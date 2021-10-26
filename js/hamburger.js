@@ -22,7 +22,7 @@ menu.addEventListener('click', e => {
 main.addEventListener('click', () => {
 	drawer.classList.remove('open');
 	menu.classList.remove('open');
-	logo.classList.remove('txt-red');
+	logo.classList.remove('txt-red'); // change logo color to white
 	navLinks.forEach(link => {
 		link.classList.toggle('txt-black'); // change nav link color to black
 	});
