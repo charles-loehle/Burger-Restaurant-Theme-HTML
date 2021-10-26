@@ -1,0 +1,21 @@
+{
+	"name": "burger restaurant theme",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "parcel index.html",
+		"build": "parcel build index.html",
+		"deploy": "npm run build -d dist"
+	},
+	"homepage": "https://charles-loehle.github.io/dev-portfolio",
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"normalize.css": "^8.0.1"
+	},
+	"devDependencies": {
+		"parcel-bundler": "^1.12.5",
+		"sass": "^1.35.1"
+	}
+}

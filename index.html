@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Charles Loehle Web Developer</title>
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+			integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+			crossorigin="anonymous"
+		/>
+	</head>
+	<body>
+		<header id="header" class="header sticky fade-transition">
+			<div class="container">
+				<div class="header__inner">
+					<a href="/" class="logo">
+						<!-- <img src="./images/cl-logo.png" alt="logo" /> -->
+						<h1>BURGER BURGER</h1>
+					</a>
+
+					<a id="menu" class="header__menu">
+						<span></span>
+						<span></span>
+						<span></span>
+					</a>
+				</div>
+
+				<nav id="drawer" class="nav">
+					<ul>
+						<li class="welcome-section">
+							<a class="" href="#welcome-section">Home</a>
+						</li>
+						<li class="about"><a class="" href="#about">About</a></li>
+						<li class="projects"><a class="" href="#projects">Work</a></li>
+						<li class="contact"><a class="" href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<section id="welcome-section" class="hero">
+				<div class="hero-cta flex flex-jcc flex-aic flex-dir-col">
+					<!-- <div class="hero-cta__content"> -->
+					<div class="hero-cta__headline">
+						<h1>Burger Burger</h1>
+						<h3>Best burgers in town</h3>
+					</div>
+					<div class="hero-cta__buttons">
+						<a href="#" class="btn btn-secondary">Order Pickup</a>
+					</div>
+					<!-- </div> -->
+				</div>
+			</section>
+
+			<section id="about" class="about-section">
+				<div class="container">
+					<div class="flex">
+						<div class="about-section__skills m6 gutters">
+							<div class="skills-logo-container flex">
+								<img src="./images/hamburger-placeholder.jpg" alt="html-logo" />
+							</div>
+						</div>
+						<div class="about-section__hello m6 gutters">
+							<div class="about-section__header">
+								<h2>About <span>Us</span></h2>
+							</div>
+							<h4>Welcome to Burger Burger</h4>
+							<p>
+								Welcome to your local Burger Burger at 3105 Peachtree Parkway in
+								Suwanee. With more than 250,000 ways to customize your burger
+								and more than 1,000 milkshake combinations, your perfect meal is
+								just a click away! We strive to provide the best experience each
+								and every time you visit.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="projects" class="projects-section">
+				<div class="container">
+					<div class="projects-section__header">
+						<h2>PROJECTS</h2>
+						<h3>Latest Projects</h3>
+					</div>
+					<hr />
+					<div class="projects-grid">
+						<div class="card music-lesson-tracker">
+							<div class="card__img-cont">
+								<img
+									src="./images/recipe-app.JPG"
+									alt="project"
+									class="card__img"
+								/>
+							</div>
+							<div class="card__body">
+								<h4 class="card__title">Recipe Finder</h4>
+								<p class="card__desc">
+									Find a recipe for a deliciious meal. Search by ingredient and
+									add to favorites. Click on the recipe for nutritional facts,
+									then go to the instructions site and make your meal. Built
+									with Edamam's recipe search API, NextJS (ReactJS), SASS and
+									original design. Favorites are saved in the browser's local
+									storage.
+								</p>
+								<div class="card__actions">
+									<a
+										href="https://edamam-recipe-app.vercel.app"
+										class="btn btn-accent"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										SEE LIVE</a
+									>
+								</div>
+							</div>
+						</div>
+						<div class="card music-lesson-tracker">
+							<div class="card__img-cont">
+								<img
+									src="./images/dashboard-overview.JPG"
+									alt="project"
+									class="card__img"
+								/>
+							</div>
+							<div class="card__body">
+								<h4 class="card__title">Music Lesson Tracker</h4>
+								<p class="card__desc">
+									An app to help music teachers manage their lesson studios.
+									Save student contact information. Track lesson dates and
+									times, lesson homework and attendance. MERN stack: MongoDB,
+									ExpressJS, ReactJS, NodeJS, Bootstrap and custom CSS and
+									design.
+								</p>
+								<div class="card__actions">
+									<a
+										href="https://blooming-journey-42842.herokuapp.com/register"
+										class="btn btn-accent"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										SEE LIVE</a
+									>
+								</div>
+							</div>
+						</div>
+
+						<div class="card weather-app">
+							<div class="card__img-cont">
+								<img
+									src="./images/weather-app.jpg"
+									alt="project"
+									class="card__img"
+								/>
+							</div>
+							<div class="card__body">
+								<h4 class="card__title">Weather App</h4>
+								<p class="card__desc">
+									Local weather app using Openweathermap api. Designed in Adobe
+									XD, coded with Javascript, CSS and HTML.
+								</p>
+								<div class="card__actions">
+									<a
+										href="https://weather-app-plum-theta.vercel.app/"
+										class="btn btn-accent"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										SEE LIVE</a
+									>
+								</div>
+							</div>
+						</div>
+
+						<div class="card blogr">
+							<div class="card__img-cont">
+								<img src="./images/blogr.JPG" alt="project" class="card__img" />
+							</div>
+							<div class="card__body">
+								<h4 class="card__title">Blogr</h4>
+								<p class="card__desc">
+									A project from frontendmentor.io. A responsive layout with
+									mobile menu that has dropdown links and an animated hamburger
+									and menu that fades in. Using Javascript, SASS and HTML.
+								</p>
+								<div class="card__actions">
+									<a
+										href="https://blogr-landing-page-dun.vercel.app/#"
+										class="btn btn-accent"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										SEE LIVE</a
+									>
+								</div>
+							</div>
+						</div>
+
+						<div class="card wordpress-portfolio-theme">
+							<div class="card__img-cont">
+								<img
+									src="./images/cldigitaldesign.JPG"
+									alt="project"
+									class="card__img"
+								/>
+							</div>
+							<div class="card__body">
+								<h4 class="card__title">Wordpress Portfolio Theme</h4>
+								<p class="card__desc">
+									First iteration of my portfolio site in a Wordpress theme.
+									Designed by me and coded in PHP, SASS, JQuery, Javascript.
+								</p>
+								<div class="card__actions">
+									<a
+										href="https://cldigitaldesign.com/"
+										class="btn btn-accent"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										SEE LIVE</a
+									>
+								</div>
+							</div>
+						</div>
+
+						<div class="card sign-up-form">
+							<div class="card__img-cont">
+								<img
+									src="./images/intro-component-sign-up-form.jpg"
+									alt="project"
+									class="card__img"
+								/>
+							</div>
+							<div class="card__body">
+								<h4 class="card__title">Sign Up Form</h4>
+								<p class="card__desc">
+									A sign up form from project from frontendmentor.io with
+									javascript user input validation. Made with HTML, CSS and
+									Javascript.
+								</p>
+								<div class="card__actions">
+									<a
+										href="https://intro-component-sign-up-form-zeta.vercel.app/"
+										target="_blank"
+										class="btn btn-accent"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										SEE LIVE</a
+									>
+								</div>
+							</div>
+						</div>
+
+						<div class="card testimonial-slider">
+							<div class="card__img-cont">
+								<img
+									src="./images/testimonial-slider-component.jpg"
+									target="_blank"
+									alt="project"
+									class="card__img"
+								/>
+							</div>
+							<div class="card__body">
+								<h4 class="card__title">Testimonial Slider Component</h4>
+								<p class="card__desc">
+									A frontendmentor.io project that has a slider image with
+									controls. Made with HTML, CSS and Javascript.
+								</p>
+								<div class="card__actions">
+									<a
+										href="https://coding-bootcamp-testimonials-slider-3.vercel.app/"
+										target="_blank"
+										class="btn btn-accent"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										SEE LIVE</a
+									>
+								</div>
+							</div>
+						</div>
+
+						<div class="card accordion-card">
+							<div class="card__img-cont">
+								<img
+									src="./images/accordion-card.jpg"
+									alt="project"
+									class="card__img"
+								/>
+							</div>
+							<div class="card__body">
+								<h4 class="card__title">Accordion Card Component</h4>
+								<p class="card__desc">
+									Frontendmentor.io project. Vertically collapsing accordions
+									made with HTML, Javascript and SASS.
+								</p>
+								<div class="card__actions">
+									<a
+										href="https://faq-accordion-card-charles-loehle.vercel.app/"
+										target="_blank"
+										class="btn btn-accent"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										SEE LIVE</a
+									>
+								</div>
+							</div>
+						</div>
+
+						<div class="card technical-documentation-page">
+							<div class="card__img-cont">
+								<img
+									src="./images/technical-documentation-page.jpg"
+									alt="project"
+									class="card__img"
+								/>
+							</div>
+							<div class="card__body">
+								<h4 class="card__title">Technical Documentation Page</h4>
+								<p class="card__desc">
+									Freecodecamp.org project that is a reference page for
+									Javascript DOM Node Methods. Mobile menu with side drawer
+									navigation. Made with Javascript, HTML, CSS and SASS.
+								</p>
+								<div class="card__actions">
+									<a
+										href="https://charles-loehle.github.io/FCC-technical-doc-page/"
+										target="_blank"
+										class="btn btn-accent"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										SEE LIVE</a
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="contact" class="contact-section">
+				<div class="dark-overlay">
+					<div class="container">
+						<div class="contact-section__header">
+							<h2>CONTACT</h2>
+							<h3>Let's work together...</h3>
+						</div>
+						<div class="contact-section__links">
+							<a
+								id="profile-link"
+								href="https://github.com/charles-loehle"
+								class="contact-details"
+								><i class="fab fa-github"></i> GitHub</a
+							>
+							<a
+								href="https://github.com/charles-loehle"
+								class="contact-details"
+								><i class="fab fa-linkedin-in"></i> LinkedIn</a
+							>
+							<a href="mailto:charlesloehle@gmail.com" class="contact-details"
+								><i class="fa fa-at"></i> Send an email</a
+							>
+							<!-- <a href="tel:770-380-0752" class="contact-details"
+								><i class="fas fa-mobile-alt"></i> Call me</a
+							> -->
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<footer>
+				<a href="/" class="logo">
+					<img src="./images/cl-logo.png" alt="logo" />
+				</a>
+			</footer>
+		</main>
+		<script src="index.js"></script>
+	</body>
+</html>

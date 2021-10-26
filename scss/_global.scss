@@ -1,0 +1,103 @@
+// @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: $heading-font;
+	font-size: 16px;
+	line-height: 1.5;
+	// margin-top: -16px; // get rid of white space top of page
+	// margin-bottom: -16px; // get rid of white space bottom of page
+}
+
+* {
+	box-sizing: border-box;
+}
+
+img,
+embed,
+object,
+video {
+	max-width: 100%;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+h1,
+h2,
+h3 {
+	font-weight: 400;
+}
+h1,
+h2,
+h3,
+h3 {
+	margin: 0;
+}
+
+.accent {
+	color: $secondary;
+}
+
+// UTILITY CLASSES
+.flex {
+	display: flex;
+}
+.flex-dir-col {
+	flex-direction: column;
+}
+
+.flex-aic {
+	align-items: center;
+}
+
+.flex-jcc {
+	justify-content: center;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1280px;
+	width: 90%;
+}
+
+.gutters {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.rounded {
+	border-radius: 0.25rem;
+}
+
+@media only screen and (min-width: 601px) {
+	.container {
+		width: 83%;
+	}
+}
+
+@media only screen and (min-width: 993px) {
+	.container {
+		width: 70%;
+	}
+}
+
+@media only screen and (min-width: 800px) {
+	.m6 {
+		width: 50%;
+	}
+}
