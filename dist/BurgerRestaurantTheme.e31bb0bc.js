@@ -195,7 +195,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"normalize.css":"node_modules/normalize.css/normalize.css","./..\\images\\hamburger-banner-1600x1005.jpg":[["hamburger-banner-1600x1005.712e44d4.jpg","images/hamburger-banner-1600x1005.jpg"],"images/hamburger-banner-1600x1005.jpg"],"./..\\images\\starry-sky-with-trees.jpg":[["starry-sky-with-trees.306ef6aa.jpg","images/starry-sky-with-trees.jpg"],"images/starry-sky-with-trees.jpg"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"js/stickyNav.js":[function(require,module,exports) {
+},{"normalize.css":"node_modules/normalize.css/normalize.css","./..\\images\\burger-and-beer-hero.jpg":[["burger-and-beer-hero.e5baee95.jpg","images/burger-and-beer-hero.jpg"],"images/burger-and-beer-hero.jpg"],"./..\\images\\starry-sky-with-trees.jpg":[["starry-sky-with-trees.306ef6aa.jpg","images/starry-sky-with-trees.jpg"],"images/starry-sky-with-trees.jpg"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"js/stickyNav.js":[function(require,module,exports) {
 var aboutSection = document.querySelector('#about');
 var aboutSectionYcoord = aboutSection.offsetTop; // console.log(aboutSectionYcoord);
 
@@ -337,7 +337,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55148" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52236" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

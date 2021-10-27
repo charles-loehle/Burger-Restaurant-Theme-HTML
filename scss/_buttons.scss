@@ -10,8 +10,8 @@
 	user-select: none;
 	background-color: transparent;
 	border: 1px solid transparent;
-	border-radius: 5px;
-	text-transform: uppercase;
+	border-radius: 4px;
+	// text-transform: uppercase;
 	padding: 0.63rem 1.68rem;
 	font-size: 0.8rem;
 	line-height: 1.5;
@@ -59,4 +59,23 @@
 	background-color: $secondary-accent-hover-bg;
 	border-color: $secondary-accent-hover-border;
 	box-shadow: $secondary-accent-focus-box-shadow;
+}
+
+.btn-tertiary {
+	color: #fff;
+	background-color: $tertiary;
+	border-color: $tertiary;
+}
+
+.btn-tertiary:hover {
+	color: #fff;
+	background-color: $tertiary-accent-hover-bg;
+	border-color: $tertiary-accent-hover-border;
+}
+
+.btn-tertiary:focus {
+	color: #fff;
+	background-color: $tertiary-accent-hover-bg;
+	border-color: $tertiary-accent-hover-border;
+	box-shadow: $tertiary-accent-focus-box-shadow;
 }
